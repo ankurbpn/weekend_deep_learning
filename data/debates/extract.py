@@ -7,8 +7,9 @@ def main():
     if len(sys.argv) != 4:
         print "Usage: python extract.py infilename speakername outfilename"
     speaker = sys.argv[2]
-    for line in open(sys.argv[1], 'r'):
-        if line
+    with open(sys.argv[3], 'w'):
+        for line in open(sys.argv[1], 'r'):
+            if line has speaker+'':
 
      
 if __name__ == "__main__":
